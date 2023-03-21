@@ -1,0 +1,522 @@
+{% load static %}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+html
+{
+    /*overflow-x: hidden;*/
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.page
+{
+    margin:0 auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-height: 1080px;
+    max-width: 1920px;
+    min-height: 850px;
+    min-width: 965px;
+    min-height: 850px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../Res/img/Background.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-family: 'Franklin Gothic Heavy';
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.mainname{
+    margin-top: 40px;
+    text-align: center;   
+}
+
+button {
+    background-color: rgba(28,28,28,0);
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    color: #ffffff;
+
+
+}
+
+.btnstart{
+
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 80px;
+}
+.txtbtnstart
+{
+    font-weight: lighter;
+}
+
+.btnlisten {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 80px;
+}
+h4{
+    font-family: 'Gotham Pro';
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.menu
+{
+    
+    font-weight: lighter;
+    font-size: 16px;
+    display: inline;
+}
+#menustart
+{
+    text-decoration: underline;
+}
+
+.main
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mainicon
+{
+    text-align: left;
+    height: 63px;
+    width: 120px;
+}
+.mainmenu
+{
+    width: 60%;
+    position: relative;
+    top: -50px;
+    text-align: right;
+    float: right;
+}
+
+.pointmenu
+{
+    display: inline-block;
+    margin-bottom: 20px;
+    transition-duration: .5s; 
+}
+
+div.pointmenu:hover
+{
+    transform: scale(1.1,1.1);
+ 
+}
+
+
+
+
+.menu1, .menu2, .menu3
+{
+    width: 150px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    
+    text-align: center;
+}
+
+.menu3
+{
+    width: 150px;
+    text-align: right;
+}
+
+.help-content
+{
+    display: none;
+
+    margin-left: 22px;
+
+  
+
+
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 70px;
+   /*/*/* /*border: 2px solid white;*/
+    /*border-radius: 20px;*/*/*/*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu3:hover .help-content{display: block;}
+
+#select-lang
+{
+
+    width: 50px;
+    height: 20px;
+    font-size: 16px;
+    background-color: black;
+    font-family: 'Gotham Pro';
+    color: white;
+
+
+}
+
+.select-items
+{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainnamelisten
+{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 40px;
+    text-align: center;    
+}
+
+.listennotes{
+   margin-top: 100px;
+   text-align: center;
+}
+
+.listennotes button{
+    margin-left: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+.listennotes2{
+   margin-top: 2%;
+   text-align: center;
+}
+
+.listennotes2 button{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btnlevel
+{
+    width: 380px;
+}
+#levels
+{
+    display: none;
+    text-align: center;
+}
+
+#levelnum
+{
+    display: inline;
+}
+
+#result
+{
+    display: none;
+}
+
+#reslt
+{
+    
+    display: inline;
+}
+
+#btnstart
+{
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+    border-radius: 70px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: btnanim;
+    margin-top: 110px;
+}
+
+.start
+{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#btnrepet
+{
+    display: inline;
+    width: 220px;
+    height: 60px;
+    margin-right: 60px;
+}
+
+#btnrepet h4
+{
+    font-size: 20px;
+}
+
+#statansw
+{
+    display: inline;
+    font-size: 40px;
+    position: relative;
+    top: +11px;
+    font-family: 'Gotham Pro';
+}
+
+.listennote
+{
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.listennote button{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+img, button
+{
+    transition-duration: .5s;
+}
+
+
+
+img:hover,button:hover
+{
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    
+
+    width: 100%;
+    vertical-align: bottom;
+
+}
+
+.icons
+{
+    height: 100%;
+
+    /*margin-top: 1%;*/
+    display: flex;
+    align-items: flex-end;
+    float: left;
+}
+
+.icon
+{
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.info
+{
+    
+    color: white;
+}
+
+.infotxt
+{
+    text-align: right;
+    float: right;
+    display: inline-block;
+    width: 400px;
+   
+}
+
+#infotxt
+{
+    font-family: 'Gotham Pro';
+    /*text-align: left;*/
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes shadowfalse
+{
+    from
+    {
+        box-shadow: 0 0 0 white;
+    }
+    to
+    {
+        box-shadow: 10px 10px 100px red;
+    }
+}
+
+@keyframes shadowtrue
+{
+    from
+    {
+        box-shadow: 0 0 0 white;
+    }
+    to
+    {
+        box-shadow: 10px 10px 100px green;
+    }
+}
+
+@keyframes btnanim 
+{
+    from
+    {
+        transform: scale(1,1);
+    }
+    to
+    {
+        transform: scale(1.1,1.1);
+    }
+}
+
